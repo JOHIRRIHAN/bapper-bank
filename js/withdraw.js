@@ -25,7 +25,8 @@ document.getElementById('btn-withdraw').addEventListener('click', function(){
         alert('you do no have safetion balance!!')
         return;
     }
-      // step-4
-      const currentWithdrewTotal= previousWithdrawTotal+newWithdrawAmount;
-      withdrawTotalElement.innerText=currentWithdrewTotal;
+      
+    // step-4
+    const currentWithdrewTotal= previousWithdrawTotal+newWithdrawAmount;
+    withdrawTotalElement.innerText=currentWithdrewTotal;
 })
